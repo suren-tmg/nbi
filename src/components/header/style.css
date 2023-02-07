@@ -1,0 +1,307 @@
+.header {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.header-flex {
+  display: flex;
+}
+
+.headerff {
+  height: 45px;
+}
+.header-first {
+  width: 100%;
+  background-color: rgb(0 114 188);
+  /* background-color: rgb(22 98 154); */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  padding: 0px 50px;
+}
+.modal-title {
+  color: #284e9c !important;
+}
+.header-first ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-first ul li {
+  cursor: pointer;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 550;
+  font-weight: 400;
+  margin: 11px 10px 0px 10px;
+  color: #fff;
+}
+.header-first ul li:hover {
+  border-bottom: 1px solid #f2f2f2;
+}
+@media screen and (max-width: 940px) {
+  .header-first {
+    justify-content: left;
+    padding: 0px 0px;
+  }
+  .headerff {
+    display: none;
+  }
+  .left {
+    margin-top: -20px;
+  }
+}
+
+/* second header style start */
+.nav-bars {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.second_bar {
+  width: 80%;
+  margin: 0px auto !important;
+  padding: 0px !important;
+}
+.nbi_logo {
+  height: 90px;
+}
+.nav-link {
+  margin: 0px 15px;
+}
+/* .nav-bars .active {
+  background-color: rgb(0 114 188);
+  border-bottom: 3px solid rgb(238 29 35);
+} */
+.act {
+  color: #000 !important;
+}
+.nav-link span {
+  padding-bottom: 15px;
+}
+.nav-link span:hover {
+  /* background-color: rgb(0 114 188); */
+  border-bottom: 5px solid rgb(238 29 35);
+}
+
+.nav-link li {
+  color: #000;
+  font-weight: 600;
+  padding-top: 20px;
+}
+
+.navbar li ul li {
+  font-size: 17px;
+  list-style: none;
+  margin-left: -31px;
+  text-align: start;
+  padding: 4px 10px 4px 10px;
+  font-size: 16px;
+  font-weight: 400 !important;
+  /* border-bottom: 1px solid #fff; */
+  /* border-bottom-style: dotted; */
+  color: #fff;
+}
+.navbar li ul li:hover {
+  background-color: rgb(0 114 188);
+}
+.navbar li ul {
+  /* width: 180px; */
+  margin-left: 0px;
+  position: absolute;
+  background-color: #4c87db;
+  margin-left: -8px;
+  min-width: 160px;
+  margin-top: 20px;
+}
+.navbar .navdropdown {
+  display: none;
+}
+.nav-link:hover .navdropdown {
+  display: block;
+  z-index: 2;
+}
+.childdrop {
+  width: 215px;
+  background-color: rgb(19, 179, 238) !important;
+  margin-top: -30px !important;
+  margin-left: 229px !important;
+  display: none;
+}
+.init:hover .childdrop {
+  display: block;
+}
+@media screen and (max-width: 924px) {
+  .childdrop {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+  }
+  .nav-link span {
+    padding-bottom: 5px;
+  }
+}
+@media screen and (max-width: 1340px) {
+  .second_bar {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .second_bar {
+    width: 95%;
+  }
+  .nav-link {
+    margin: 0px 10px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nav-bars {
+    padding-left: 10px;
+  }
+  .second_bar {
+    width: 100%;
+  }
+  .nav-link {
+    margin: 0px 8px;
+  }
+}
+@media screen and (max-width: 988px) {
+  .navbar li ul {
+    /* width: 180px; */
+    margin-left: -10px;
+  }
+  .nav-link {
+    padding-left: 10px !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-link li {
+    padding-top: 0px !important;
+  }
+}
+/* banner styless */
+.banner {
+  background-color: #000;
+}
+.banner img {
+  opacity: 0.9;
+  z-index: -1;
+  min-height: 300px;
+  max-height: 690px;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  /* background-color: rgb(22 98 154); */
+  padding: 10px 10px !important;
+}
+.carousel-control-next-icon:hover,
+.carousel-control-prev-icon:hover {
+  background-color: #000;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1 !important;
+}
+.banner .carousel-indicators {
+  display: none !important;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15% !important;
+  padding-top: 0rem !important;
+  padding-bottom: 11rem !important;
+  color: #fff;
+  text-align: left !important;
+}
+.carousel-button button {
+  border: none;
+  background-color: rgb(22 98 154);
+  color: #fff;
+  padding: 8px 15px;
+  animation: bounceInUp;
+  animation-duration: 2s;
+}
+.carousel-button button:hover {
+  background-color: #fff;
+  color: #284e9c;
+}
+.carousel-title {
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 1px rgb(60, 59, 59), -1px 3px 1px rgb(43, 41, 41),
+    -2px 5px 1px rgb(49, 48, 48);
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.carousel-text {
+  font-size: 30px;
+  text-shadow: 0 2px 1px rgb(60, 59, 59), -1px 3px 1px rgb(43, 41, 41),
+    -2px 5px 1px rgb(49, 48, 48);
+  animation: bounceInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+
+@media screen and (max-width: 1340px) {
+  .carousel-caption {
+    padding-bottom: 13rem !important;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .carousel-caption {
+    padding-bottom: 10rem !important;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .carousel-caption {
+    padding-bottom: 3rem !important;
+  }
+
+  .carousel-title {
+    font-size: 30px;
+  }
+  .carousel-text {
+    font-size: 25px;
+  }
+  .carousel-button button {
+    padding: 6px 12px;
+  }
+  .carousel-caption {
+    left: 17% !important;
+  }
+}
+@media screen and (max-width: 924px) {
+  .banner p {
+    display: none;
+  }
+  .carousel-title {
+    font-size: 23px;
+  }
+  .carousel-button button {
+    padding: 4px 8px;
+    font-size: 10px;
+  }
+}
+
+.goog-te-combo:last-child {
+  display: none;
+}
+.goog-te-banner-frame {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.goog-te-gadget {
+  margin-top: 10px;
+  color: rgb(0 114 188) !important;
+}
+.goog-te-gadget span {
+  display: none;
+}
